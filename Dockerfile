@@ -8,7 +8,7 @@ ARG SAMPLE_FILE_PATH="/mnt/data/WhatsApp Image 2025-11-14 at 16.18.40_db80ed74.j
 ENV SAMPLE_FILE_URL=${SAMPLE_FILE_PATH}
 ENV OCR_API_KEY=""
 ENV GEMINI_API_KEY=""
-ENV GEMINI_MODEL="gemini-1.5-pro-latest"
+# ENV GEMINI_MODEL="gemini-1.5-pro-latest"
 
 # Install system dependencies required for OCR / PDF -> image conversion
 RUN apt-get update && apt-get install -y --no-install-recommends \
