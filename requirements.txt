@@ -7,4 +7,5 @@ python-docx
 pytesseract
 pdf2image
 Pillow
-google-generative-ai==0.5.4
+google-generative-ai==0.7.2
+
